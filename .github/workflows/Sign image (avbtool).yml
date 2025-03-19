@@ -22,7 +22,7 @@ on:
       SIZE:
         description: 'What is your boot/recovery PARTITION(not image) size?(size unit is bytes)'
         required: true
-        default: '36700160'
+        default: '67108864'
       VER:
         description: 'What is your Android version? (For padding DHTB header to vbmeta)'
         required: true
